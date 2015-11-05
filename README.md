@@ -13,9 +13,9 @@ See issue #1, annoyingly
  #  | Name | Function
 --- | ---- | --------
  1  |  GND | Ground pin closest to the USB pins
- 9  | 1.5v | Not sure what I would use these for, but nice to have access to it
+ 9  | 1.5v | Not sure what I would use these for, but nice to have access to them
 10  | 1.5v | 
-14  | 3.3v | My bread and butter, I guess... I wonder if I want to include a booster circuit for 5v?
+14  | 3.3v | Again, not sure if I should break out both of these...
 15  | 3.3v | 
 20  |  GND | These next three are closest to the PCI Express pins
 23  |  GND |
