@@ -6,7 +6,7 @@ Simple breakout board for an expresscard socket
 
 See issue #1, annoyingly
 
-## Pins of interest
+## Pin groups
 
 ### Power and others
 
@@ -15,13 +15,13 @@ See issue #1, annoyingly
  1  |  GND | Ground pin closest to the USB pins
  9  | 1.5v | Not sure what I would use these for, but nice to have access to it
 10  | 1.5v | 
-11  | WAKE# | Hmm...
-12  | 3.3v AUX | Available for limited operations such as creating wake requests when the host is suspended
 14  | 3.3v | My bread and butter, I guess... I wonder if I want to include a booster circuit for 5v?
 15  | 3.3v | 
 20  |  GND | These next three are closest to the PCI Express pins
 23  |  GND |
 26  |  GND |
+
+I probably don't need to break out these individually. Probably need at most two GND, one 1.5v and one 3.3v
 
 ### USB
 
@@ -45,4 +45,17 @@ See issue #1, annoyingly
  24 | PETn0 | Transmit differential pair
  25 | PETp0 |
  
- 
+### SMBus
+
+ #  | Name | Function
+--- | ---- | --------
+ 7  | SMBDATA |
+ 8  | SMBCLK |
+
+### Others
+
+ #  | Name | Function
+--- | ---- | --------
+ 11 | WAKE# | Turns the host on
+ 12 | 3.3v AUX | Voltage reference source for WAKE#
+
