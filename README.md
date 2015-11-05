@@ -8,7 +8,7 @@ See issue #1, annoyingly
 
 ## Pin groups
 
-### Power and others
+### Power
 
  #  | Name | Function
 --- | ---- | --------
