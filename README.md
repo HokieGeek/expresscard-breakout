@@ -4,7 +4,9 @@ Simple breakout board for an expresscard socket
 
 ## ExpressCard Pinouts
 
-See issue #1, annoyingly
+http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
+
+![Pinout Ref Image](http://www.mikrocontroller.net/attachment/35641/Express-Card-Slots-Blockschaltbild-5103.gif)
 
 ## Pin groups
 
