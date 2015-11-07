@@ -3,8 +3,8 @@ Simple breakout board for an expresscard socket
 
 ## Schematic and board
 
-![Schematic](http://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.png)
-![Board](http://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.brd.png)
+![Schematic](https://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.png)
+![Board](https://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.brd.png)
 
 # ExpressCard Pinouts
 
