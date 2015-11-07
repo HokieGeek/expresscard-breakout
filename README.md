@@ -1,8 +1,12 @@
 # expresscard-breakout
 Simple breakout board for an expresscard socket
 
+## Schematic and board
 
-## ExpressCard Pinouts
+![Schematic](http://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.png)
+![Board](http://raw.githubusercontent.com/HokieGeek/expresscard-breakout/master/expresscard-breakout.brd.png)
+
+# ExpressCard Pinouts
 
 http://www.usb.org/developers/expresscard/EC_specifications/ExpressCard_2_0_FINAL.pdf
 
