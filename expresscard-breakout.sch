@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -131,6 +132,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -143,35 +146,36 @@
 <library name="HokieGeek">
 <packages>
 <package name="EXPRESSCARD34">
-<smd name="P$1" x="-0.0658625" y="-12.855528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$2" x="-0.0658625" y="-11.839528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P$1" x="-0.0658625" y="-12.855528125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$2" x="-0.0658625" y="-11.858275" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
 <dimension x1="-5.148653125" y1="12.795059375" x2="-5.128021875" y2="-13.208190625" x3="-3.393453125" y3="-0.20518125" textsize="1.27" layer="51" precision="6"/>
-<smd name="P$3" x="-0.0658625" y="-10.823528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$4" x="-0.0658625" y="-9.807528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$5" x="-0.0658625" y="-8.791528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$6" x="-0.0658625" y="-7.775528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$7" x="-0.0658625" y="-6.759528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$8" x="-0.0658625" y="-5.743528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$9" x="-0.0658625" y="-4.727528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$10" x="-0.0658625" y="-3.711528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$11" x="-0.0658625" y="-2.695528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$12" x="-0.0658625" y="-1.679528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$13" x="-0.0658625" y="-0.663528125" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$14" x="-0.0658625" y="0.352471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$15" x="-0.0658625" y="1.368471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$16" x="-0.0658625" y="2.384471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$17" x="-0.0658625" y="3.400471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$18" x="-0.0658625" y="4.416471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$19" x="-0.0658625" y="5.432471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$20" x="-0.0658625" y="6.448471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$21" x="-0.0658625" y="7.464471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$22" x="-0.0658625" y="8.480471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$23" x="-0.0658625" y="9.496471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$24" x="-0.0658625" y="10.512471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$25" x="-0.0658625" y="11.528471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<smd name="P$26" x="-0.0658625" y="12.544471875" dx="1.6764" dy="0.8128" layer="1" rot="R180"/>
-<text x="1.27" y="-13.5975" size="1.016" layer="21">1</text>
-<text x="1.27" y="12.7" size="1.016" layer="21">26</text>
+<smd name="P$3" x="-0.0658625" y="-10.861025" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$4" x="-0.0658625" y="-9.89844375" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$5" x="-0.0658625" y="-8.842328125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$6" x="-0.0658625" y="-7.8252375" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$7" x="-0.0658625" y="-6.810328125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$8" x="-0.0658625" y="-5.743528125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$9" x="-0.0658625" y="-4.727528125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$10" x="-0.0658625" y="-3.711528125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$11" x="-0.0658625" y="-2.695528125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$12" x="-0.0658625" y="-1.730328125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$13" x="-0.0658625" y="-0.714328125" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$14" x="-0.0658625" y="0.301671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$15" x="-0.0658625" y="1.317671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$16" x="-0.0658625" y="2.333671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$17" x="-0.0658625" y="3.349671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$18" x="-0.0658625" y="4.365671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$19" x="-0.0658625" y="5.381671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$20" x="-0.0658625" y="6.423071875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$21" x="-0.0658625" y="7.439071875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$22" x="-0.0658625" y="8.429671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$23" x="-0.0658625" y="9.445671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$24" x="-0.0658625" y="10.461671875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$25" x="-0.0658625" y="11.426871875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<smd name="P$26" x="-0.0658625" y="12.442871875" dx="1.4224" dy="0.6604" layer="1" rot="R180"/>
+<text x="1.27" y="-13.5975" size="0.6096" layer="21">1</text>
+<text x="1.27" y="12.7" size="0.6096" layer="21">26</text>
+<dimension x1="3.2004" y1="12.8524" x2="3.1496" y2="-0.1524" x3="5.10556875" y3="6.342459375" textsize="1.27" layer="21"/>
 </package>
 <package name="1X10-SMD-NOHOLES">
 <wire x1="12.7" y1="1.25" x2="-12.7" y2="1.25" width="0.127" layer="51"/>
@@ -214,32 +218,32 @@
 </packages>
 <symbols>
 <symbol name="EXPRESSCARD34">
-<pin name="GND_A" x="2.54" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND_A" x="2.54" y="30.48" length="middle" direction="sup" rot="R180"/>
 <pin name="USBD-" x="2.54" y="27.94" length="middle" rot="R180"/>
 <pin name="USBD+" x="2.54" y="25.4" length="middle" rot="R180"/>
-<pin name="CPUSB#" x="2.54" y="22.86" length="middle" direction="out" rot="R180"/>
-<pin name="USB3#" x="2.54" y="20.32" length="middle" rot="R180"/>
-<pin name="RESERVED" x="2.54" y="17.78" length="middle" rot="R180"/>
+<pin name="CPUSB#" x="2.54" y="22.86" length="middle" direction="in" rot="R180"/>
+<pin name="USB3#" x="2.54" y="20.32" length="middle" direction="in" rot="R180"/>
+<pin name="RESERVED" x="2.54" y="17.78" length="middle" direction="nc" rot="R180"/>
 <pin name="SMBCLK" x="2.54" y="15.24" length="middle" rot="R180"/>
 <pin name="SMBDATA" x="2.54" y="12.7" length="middle" rot="R180"/>
-<pin name="1.5V_A" x="2.54" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="1.5V_B" x="2.54" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="WAKE#" x="2.54" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="3.3V_AUX" x="2.54" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="PERST#" x="2.54" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="3.3V_A" x="2.54" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="3.3V_B" x="2.54" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="CLKREQ#" x="2.54" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="CPPE#" x="2.54" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="REFCLK-" x="2.54" y="-12.7" length="middle" direction="in" rot="R180"/>
-<pin name="REFCLK+" x="2.54" y="-15.24" length="middle" direction="in" rot="R180"/>
-<pin name="GND_B" x="2.54" y="-17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="PERN0/SSRX-" x="2.54" y="-20.32" length="middle" direction="out" rot="R180"/>
-<pin name="PERP0/SSRX+" x="2.54" y="-22.86" length="middle" direction="out" rot="R180"/>
-<pin name="GND_C" x="2.54" y="-25.4" length="middle" direction="pwr" rot="R180"/>
-<pin name="PETN0/SSTX-" x="2.54" y="-27.94" length="middle" direction="in" rot="R180"/>
-<pin name="PETP0/SSTX+" x="2.54" y="-30.48" length="middle" direction="in" rot="R180"/>
-<pin name="GND_D" x="2.54" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="1.5V_A" x="2.54" y="10.16" length="middle" direction="sup" rot="R180"/>
+<pin name="1.5V_B" x="2.54" y="7.62" length="middle" direction="sup" rot="R180"/>
+<pin name="WAKE#" x="2.54" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="3.3V_AUX" x="2.54" y="2.54" length="middle" direction="sup" rot="R180"/>
+<pin name="PERST#" x="2.54" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="3.3V_A" x="2.54" y="-2.54" length="middle" direction="sup" rot="R180"/>
+<pin name="3.3V_B" x="2.54" y="-5.08" length="middle" direction="sup" rot="R180"/>
+<pin name="CLKREQ#" x="2.54" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="CPPE#" x="2.54" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="REFCLK-" x="2.54" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="REFCLK+" x="2.54" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="GND_B" x="2.54" y="-17.78" length="middle" direction="sup" rot="R180"/>
+<pin name="PERN0/SSRX-" x="2.54" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="PERP0/SSRX+" x="2.54" y="-22.86" length="middle" direction="in" rot="R180"/>
+<pin name="GND_C" x="2.54" y="-25.4" length="middle" direction="sup" rot="R180"/>
+<pin name="PETN0/SSTX-" x="2.54" y="-27.94" length="middle" direction="out" rot="R180"/>
+<pin name="PETP0/SSTX+" x="2.54" y="-30.48" length="middle" direction="out" rot="R180"/>
+<pin name="GND_D" x="2.54" y="-33.02" length="middle" direction="sup" rot="R180"/>
 </symbol>
 <symbol name="M10">
 <wire x1="1.27" y1="-17.78" x2="-5.08" y2="-17.78" width="0.4064" layer="94"/>
